@@ -68,5 +68,5 @@ scrape_configs:
       replacement: 'Appz${1}'
       
   - job_name: 'jmeter'
-       static_configs:
-       - targets: ['jmeter-0-1:9270']  
+    static_configs:
+    - targets: ['jmeter-0-1:9270']  
